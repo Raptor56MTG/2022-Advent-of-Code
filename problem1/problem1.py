@@ -1,5 +1,5 @@
 def generate_elves():
-    with open('example.txt', 'r') as f:
+    with open('problem1.txt', 'r') as f:
         elf_calories = []
         total = 0
         for line in f:
