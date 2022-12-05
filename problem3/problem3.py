@@ -35,4 +35,5 @@ def problem3p2():
 
 
 if __name__ == '__main__':
+    print(problem3p1())
     print(problem3p2())

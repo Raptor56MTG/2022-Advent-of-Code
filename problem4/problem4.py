@@ -25,4 +25,5 @@ def problem4p2():
 
 
 if __name__ == '__main__':
+    print(problem4p1())
     print(problem4p2())
