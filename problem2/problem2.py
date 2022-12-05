@@ -16,6 +16,7 @@ def calculate_score_p1(line: str):
 
 
 def problem2p1():
+    """problem 2 part 1"""
     with open('problem2.txt', 'r') as f:
         total = 0
         for line in f:
@@ -39,6 +40,7 @@ def calculate_score_p2(line: str):
 
 
 def problem2p2():
+    """problem 2 part 2"""
     with open('problem2.txt', 'r') as f:
         total = 0
         for line in f:
