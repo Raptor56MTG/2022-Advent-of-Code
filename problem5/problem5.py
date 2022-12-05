@@ -81,7 +81,7 @@ def problem5p2():
             crates = []
             for _ in range(amount):
                 crates.append(start.pop())
-            for crate in reversed(crates):  # reverse double pop cause I'm lazy
+            for _ in reversed(crates):  # reverse double pop cause I'm lazy
                 target.append(crates.pop())
 
         # get output
