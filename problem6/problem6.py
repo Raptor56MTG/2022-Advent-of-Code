@@ -5,7 +5,7 @@ def problem6p1():
         start = 0
         end = 4
         search = set(signal[start:end])
-        while len(search) != 4 and end <= len(signal) - 1:
+        while len(search) != 4:
             start += 1
             end += 1
             search = set(signal[start:end])
@@ -19,7 +19,7 @@ def problem6p2():
         start = 0
         end = 14
         search = set(signal[start:end])
-        while len(search) != 14 and end <= len(signal) - 1:
+        while len(search) != 14:
             start += 1
             end += 1
             search = set(signal[start:end])
