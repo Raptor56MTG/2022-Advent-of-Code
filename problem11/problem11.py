@@ -23,7 +23,7 @@ def parse_monkey(monkey: str) -> list:
 def mod_shifting(value: int, monkeys: list) -> int:
     """I'd like to preface and state this code is not elegant at all.
     It's a raw expanded solution to reducing the modular values from expanding
-    into uncomprehensibly big numbers by using the chinese reamainder theorem
+    into uncomprehensibly big numbers by using the chinese remainder theorem
     algorithm to find the smallest common divisor that maintains the same
     modularity among all of the possible divisors. I'm certain there is a more
     elegant and smart solution, but I'm proud to have figured out a solution on
